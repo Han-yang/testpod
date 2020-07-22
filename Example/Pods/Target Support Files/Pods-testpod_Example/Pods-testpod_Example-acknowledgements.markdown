@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## testpod
+## testpod_hy
 
 Copyright (c) 2020 Han-yang <han.yang@anker.com>
 

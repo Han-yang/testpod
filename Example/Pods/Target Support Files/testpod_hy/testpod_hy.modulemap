@@ -1,0 +1,6 @@
+framework module testpod_hy {
+  umbrella header "testpod_hy-umbrella.h"
+
+  export *
+  module * { export * }
+}
