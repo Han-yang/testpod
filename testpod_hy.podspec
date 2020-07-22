@@ -7,8 +7,8 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'testpod'
-  s.version          = '0.1.0'
+  s.name             = 'testpod_hy'
+  s.version          = '0.1.1'
   s.summary          = 'just for test'
 
 # This description is used to generate tags and improve search results.
@@ -32,7 +32,7 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'testpod/Classes/**/*'
   s.swift_versions = '4.0'
-  
+
   # s.resource_bundles = {
   #   'testpod' => ['testpod/Assets/*.png']
   # }

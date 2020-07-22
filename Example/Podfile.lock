@@ -2,15 +2,20 @@ PODS:
   - testpod (0.1.0)
 
 DEPENDENCIES:
-  - testpod (from `../`)
+  - testpod (from `https://github.com/Han-yang/testpod.git`)
 
 EXTERNAL SOURCES:
   testpod:
-    :path: "../"
+    :git: https://github.com/Han-yang/testpod.git
+
+CHECKOUT OPTIONS:
+  testpod:
+    :commit: 48eabb89b6aac6c5d6a55f02dbc44879eb2ca27b
+    :git: https://github.com/Han-yang/testpod.git
 
 SPEC CHECKSUMS:
-  testpod: 736ac16bfae629486fe13f03cc926303e7de2790
+  testpod: 1a157cbb7544eea3171123b89c8605a8fb1566fd
 
-PODFILE CHECKSUM: 9a8cc9785a7d9961495eabb0ab4156bb9b56eb45
+PODFILE CHECKSUM: 2408a8a2b66c2bc66a2bc52d5ee27e6fc6075b63
 
 COCOAPODS: 1.8.4
