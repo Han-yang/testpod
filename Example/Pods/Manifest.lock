@@ -1,5 +1,5 @@
 PODS:
-  - testpod_hy (0.1.1)
+  - testpod_hy (0.1.2)
 
 DEPENDENCIES:
   - testpod_hy (from `https://github.com/Han-yang/testpod.git`)
@@ -10,11 +10,11 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   testpod_hy:
-    :commit: 5eb4a4cc2b080bcf3c8d9a59bb84c5705e46cce5
+    :commit: 74576b124975f90c3dae2a4aec6f87d101c68a82
     :git: https://github.com/Han-yang/testpod.git
 
 SPEC CHECKSUMS:
-  testpod_hy: 771ad7835eac540e39ba056b35244d573634f0f8
+  testpod_hy: 9e8459b227e211bdd0e0c1c2fc0d8ded3b6d9e50
 
 PODFILE CHECKSUM: 3799cb24b54e6dafc1a85c35e5d24e9ca4422d05
 

@@ -8,7 +8,7 @@
 import Foundation
 public class LabUtil2 {
    public class func printtest(_ name:String) -> String {
-        NSLog("name2 = %@", name)
+        NSLog("name2new = %@", name)
         return "name"
     }
 }

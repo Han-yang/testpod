@@ -1,5 +1,5 @@
 import XCTest
-import testpod
+import testpod_hy
 
 class Tests: XCTestCase {
     
@@ -13,13 +13,13 @@ class Tests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        XCTAssert(true, "Pass")
+    
+    func test2(){
+        NSLog("-------------%@", self)
     }
     
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
+    func test2perform() {
+        NSLog("-----------%@", self)
         self.measure() {
             // Put the code you want to measure the time of here.
         }

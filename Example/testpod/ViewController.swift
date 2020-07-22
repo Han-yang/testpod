@@ -8,7 +8,7 @@
 
 import UIKit
 
-import testpod
+import testpod_hy
  
 class ViewController: UIViewController {
  
