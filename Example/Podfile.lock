@@ -10,7 +10,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   testpod_hy:
-    :commit: 43e57c650c1b071bcfae7be7beeddcbec0968f51
+    :commit: 5eb4a4cc2b080bcf3c8d9a59bb84c5705e46cce5
     :git: https://github.com/Han-yang/testpod.git
 
 SPEC CHECKSUMS:
