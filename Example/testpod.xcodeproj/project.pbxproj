@@ -393,11 +393,13 @@
 				"${PODS_ROOT}/Target Support Files/Pods-testpod_Example/Pods-testpod_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/SnapKit-iOS9.3/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/mainpod/mainpod.framework",
+				"${BUILT_PRODUCTS_DIR}/podDev01/podDev01.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/mainpod.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/podDev01.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
