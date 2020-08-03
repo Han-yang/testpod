@@ -1,5 +1,4 @@
 import XCTest
-import testpod_hy
 
 class Tests: XCTestCase {
     

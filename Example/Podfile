@@ -1,11 +1,14 @@
 use_frameworks!
 
 target 'testpod_Example' do
-  pod 'testpod_hy', :git => 'https://github.com/Han-yang/testpod.git', :branch => 'podbranch'
+  pod 'mainpod', :path => 'main'
 
   target 'testpod_Tests' do
     inherit! :search_paths
-
+    
     
   end
+end
+target 'main' do
+  pod 'SnapKit'
 end

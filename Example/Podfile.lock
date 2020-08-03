@@ -1,22 +1,24 @@
 PODS:
-  - testpod_hy (0.1.0)
+  - mainpod (0.1.0):
+    - SnapKit
+  - SnapKit (4.2.0)
 
 DEPENDENCIES:
-  - testpod_hy (from `https://github.com/Han-yang/testpod.git`, branch `podbranch`)
+  - mainpod (from `main`)
+  - SnapKit
+
+SPEC REPOS:
+  trunk:
+    - SnapKit
 
 EXTERNAL SOURCES:
-  testpod_hy:
-    :branch: podbranch
-    :git: https://github.com/Han-yang/testpod.git
-
-CHECKOUT OPTIONS:
-  testpod_hy:
-    :commit: 92c1de909800ae07726c6b3d3543efbabd934d35
-    :git: https://github.com/Han-yang/testpod.git
+  mainpod:
+    :path: main
 
 SPEC CHECKSUMS:
-  testpod_hy: 0474251028c58991e289155fd12c57de02ae1108
+  mainpod: de9c239ab616313203f03f84e49f16b302c8db1c
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
 
-PODFILE CHECKSUM: 6977d48ac529c8a869034e578957f37e77861b25
+PODFILE CHECKSUM: fbd7cde8018a584a0c9b6286b9f2be1ebba1f3e7
 
 COCOAPODS: 1.9.3
