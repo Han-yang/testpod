@@ -9,7 +9,7 @@ import Foundation
 
 public class LabUtil {
    public class func printtest(_ name:String) -> String {
-        NSLog("0.1.1 name = %@", name)
+        NSLog("name = %@", name)
         return "name"
     }
 }
