@@ -1,5 +1,5 @@
 framework module mainpod {
-  umbrella header "mainpod-umbrella.h"
+  umbrella header "mainpod-iOS9.3-umbrella.h"
 
   export *
   module * { export * }

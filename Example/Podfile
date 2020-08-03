@@ -12,3 +12,7 @@ end
 target 'main' do
   pod 'SnapKit'
 end
+target 'podDev01' do
+  pod 'SnapKit'
+  pod 'mainpod',  :path => 'main'
+end

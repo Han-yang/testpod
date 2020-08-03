@@ -12,7 +12,7 @@
 import Foundation
 import SnapKit
 public class MainTest:UIView {
-    func test() {
+    public func test() {
         print("test : %@",self.classForCoder)
     }
 }
