@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = '**/*.{h,m,swift}'
+  s.source_files = 'Example/podDev01/**/*.{h,m,swift}'
   s.swift_versions = '4.0'
 
   # s.resource_bundles = {
