@@ -1,10 +1,14 @@
 PODS:
   - mainpod (0.1.0):
     - SnapKit
+  - podDev01 (0.1.0):
+    - mainpod
+    - SnapKit
   - SnapKit (4.2.0)
 
 DEPENDENCIES:
   - mainpod (from `main`)
+  - podDev01 (from `../`)
   - SnapKit
 
 SPEC REPOS:
@@ -14,11 +18,14 @@ SPEC REPOS:
 EXTERNAL SOURCES:
   mainpod:
     :path: main
+  podDev01:
+    :path: "../"
 
 SPEC CHECKSUMS:
   mainpod: de9c239ab616313203f03f84e49f16b302c8db1c
+  podDev01: 613f3f294c0bf6b3d456f1c5f4d04976cde4dce0
   SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
 
-PODFILE CHECKSUM: f75babed18931813a39ddf6809f0dc558d7137b5
+PODFILE CHECKSUM: fa3ba4768ac9827e845b5064f4773bf702754db4
 
 COCOAPODS: 1.9.3
