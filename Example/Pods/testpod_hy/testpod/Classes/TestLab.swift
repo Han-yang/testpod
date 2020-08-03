@@ -9,7 +9,7 @@ import Foundation
 
 public class LabUtil {
    public class func printtest(_ name:String) -> String {
-        NSLog("podbranch name = %@", name)
+        NSLog("podbranch modified name = %@", name)
         return "name"
     }
 }
