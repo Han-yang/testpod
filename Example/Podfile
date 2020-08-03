@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'testpod_Example' do
-  pod 'testpod_hy', :git => 'https://github.com/Han-yang/testpod.git'
+  pod 'testpod_hy', :git => 'https://github.com/Han-yang/testpod.git', :branch => 'podbranch'
 
   target 'testpod_Tests' do
     inherit! :search_paths
