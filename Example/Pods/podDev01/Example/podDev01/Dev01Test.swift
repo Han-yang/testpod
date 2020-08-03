@@ -11,7 +11,7 @@
 import Foundation
 import mainpod
 public class Dev01Test:UIView {
-    func test() {
+    public func test() {
         let m = MainTest()
         m.test()
     }
