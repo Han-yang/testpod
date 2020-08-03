@@ -2,7 +2,7 @@ use_frameworks!
 
 target 'testpod_Example' do
   pod 'mainpod', :path => 'main'
-
+  pod 'podDev01', :git => 'https://github.com/Han-yang/testpod.git', :branch => 'dev_01'
   target 'testpod_Tests' do
     inherit! :search_paths
     
