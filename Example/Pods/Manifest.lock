@@ -3,7 +3,6 @@ PODS:
     - SnapKit
   - podDev01 (0.1.1):
     - mainpod
-    - SnapKit
   - SnapKit (4.2.0)
 
 DEPENDENCIES:
@@ -23,7 +22,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   mainpod: 4ea52dd18821598ba9657d78bd43882da207ca8d
-  podDev01: 71418f865c3635fb264be37f0306c8213800dfab
+  podDev01: d2e8d9370be85fb0ee340f419be9b74004cf5114
   SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
 
 PODFILE CHECKSUM: 663d50836ede4059e15b084c83a62559f34b8ccc

@@ -21,9 +21,6 @@
   "source_files": "Example/podDev01/**/*.{h,m,swift}",
   "swift_versions": "4.0",
   "dependencies": {
-    "SnapKit": [
-
-    ],
     "mainpod": [
 
     ]

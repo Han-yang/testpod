@@ -10,11 +10,15 @@
 
 import Foundation
 import mainpod
+import SnapKit
 public class Dev01Test:UIView {
     public func test() {
         let m = MainTest()
         m.test()
         print(self.classForCoder,"--++")
         Dev01TestAdd().test()
+        self.snp_makeConstraints { (m) in
+            m.top.equalTo(0)
+        }
     }
 }
