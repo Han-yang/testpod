@@ -14,5 +14,6 @@ public class Dev01Test:UIView {
     public func test() {
         let m = MainTest()
         m.test()
+        print(self.classForCoder)
     }
 }
