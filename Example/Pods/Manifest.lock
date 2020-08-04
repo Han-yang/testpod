@@ -24,12 +24,12 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   podDev01:
-    :commit: a29f072167371b89462892e760096afccaa66e19
+    :commit: 7e88f2f911b7fdeefb2fa1af8a1178af0e3235c0
     :git: https://github.com/Han-yang/testpod.git
 
 SPEC CHECKSUMS:
-  mainpod: de9c239ab616313203f03f84e49f16b302c8db1c
-  podDev01: 613f3f294c0bf6b3d456f1c5f4d04976cde4dce0
+  mainpod: 4ea52dd18821598ba9657d78bd43882da207ca8d
+  podDev01: d5ce022cdeb3c9d13f6b32403dd2ec249a5126e5
   SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
 
 PODFILE CHECKSUM: 1e2e7828d22dd57c7d7b02ad6dee890a867edea7
