@@ -8,7 +8,7 @@ PODS:
 
 DEPENDENCIES:
   - mainpod (from `main`)
-  - podDev01 (from `../`)
+  - podDev01 (from `../podDev01.podspec`)
   - SnapKit
 
 SPEC REPOS:
@@ -19,13 +19,18 @@ EXTERNAL SOURCES:
   mainpod:
     :path: main
   podDev01:
-    :path: "../"
+    :podspec: "../podDev01.podspec"
+
+CHECKOUT OPTIONS:
+  podDev01:
+    :commit: aaaddfbbb354bc36b3e95906dcfde9e49913e4b4
+    :git: https://github.com/Han-yang/testpod.git
 
 SPEC CHECKSUMS:
   mainpod: 4ea52dd18821598ba9657d78bd43882da207ca8d
-  podDev01: d5ce022cdeb3c9d13f6b32403dd2ec249a5126e5
+  podDev01: cb4a283a43e7f9b41b7c114cf83178c5248d2950
   SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
 
-PODFILE CHECKSUM: 2867fb8b46d9fe4f48852ce1d3e0fbf215028176
+PODFILE CHECKSUM: 3db964c17b133abb9b3e4b2cecc59b70f5df1d77
 
 COCOAPODS: 1.9.3

@@ -12,7 +12,8 @@
     "Han-yang": "han.yang@anker.com"
   },
   "source": {
-    "git": ""
+    "git": "https://github.com/Han-yang/testpod.git",
+    "branch": "dev_01"
   },
   "platforms": {
     "ios": "8.0"
